@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(45deg,rgb(236, 8, 8), rgb(104, 1, 1) );
+            margin: 0;
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            padding: 10p 30px;
+            background-color: black;
+            height: 70px;
+            border-bottom: 3px solid #535353;
+            font-size: 20px;
+        }
+        .menu img{
+            width: 150px;
+            height: auto;
+        }
+        .links{
+            margin-left: auto;
+            display: flex;
+        }
+        .menu a{
+            text-decoration: none;
+            padding: 15px;
+            color: blue
+            text-align: center;
+        }
+        .centro{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .teste{
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .teste img{
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color:darkturquoise;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 9px;
+            border-radius: 15px;  
+        }
+        @media(max-width: 600px){
+            .centro{
+                flex-direction: column;
+                align-items: center;
+            }
+            .menu{
+                flex-direction: column;
+            }
+            .links{
+                margin-left: 0;
+                justify-content: center;
+                flex: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <img src="logo.jpg" alt="logo">
+        <div class="links">
+        <a href="$">inicio</a>
+        <a href="$">foto</a>
+        <a href="$">noticias</a>
+        <a href="$">contato</a>
+        <a href="$">video</video></a>  
+        </div>
+    </nav>
+    <div class="centro">
+        <div class="teste">
+            <img src="eemti.jpg" alt="">
+            <p><a href="https://starfoxeh.weebly.com/">Star fox</a></p>
+        </div>
+        <div class="teste">
+            <img src="eemti.jpg" alt="">
+            <p> <a href="https://sonicfangameshq.com/forums/showcase/mega-man-x8-16-bit.2184/">damake</a></p></div>
+        <div class="teste">
+            <img src="eemti.jpg" alt="">
+           <p><a href="https://www.youtube.com/watch?v=6wx9fhQMiI4">gemaplys</a></p></div>
+    </div>
+    <div class="container">
+        <input type="date">
+    </div>
+</body>
+</html>
