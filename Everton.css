@@ -32,7 +32,8 @@ p{
  .container{
    display: flex;
    justify-content: space-around;
-   padding: 40px;
+   padding: 40px; 
+   
  }
  .conteudo{
    display: flex;
@@ -58,3 +59,35 @@ p{
  .menu ul li{
    display: inline;
  }
+   #video{
+      background-color: rgba(135, 200, 120, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      border-bottom: 3px solid #f3a107;
+   }
+   #video > .container > image{
+      height: 315px;
+   }
+   footer{
+      text-align: center;
+      padding: 20px;
+   }
+   footer > p > a{
+      text-decoration: none;
+      color: #000000;
+   }
+   .menu > ul > li >a{
+      text-decoration: none;
+      color: #000000;
+      padding: 10px;
+   }
+   .menu > ul > li >a:hover{
+      border-bottom: 2px solid green;
+   }
+   .menu > ul > li > a :active{
+      color:green;
+      border-bottom: 2px solid green;
+      font-weight: 700;
+   }
