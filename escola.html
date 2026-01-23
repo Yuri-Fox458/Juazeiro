@@ -3,39 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Professores</title>
     <style>
-        #pai{
-            width: 100%;
-            background-color: blue;
-            padding: 10px 5px 10px 5px;
-            border: 2px solid black;
-            text-align: left;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-items: center;
-        }
-        .filho{
-            background-color: gray;
-            width: 80px;
-            height: 60px;       
-        }
-        @media(max-width: 600px){
-            #pai{
-                flex-direction: column;
-                align-items: center;
-            }
-        }
+        *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+        header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+ }
+ .topo ul li{
+   display: inline;
+ }
+ .topo > ul > li >a{
+      text-decoration: none;
+      color: #000000;
+      padding: 10px;
+   }
+   .topo > ul > li >a:hover{
+      border-bottom: 2px solid green;
+   }
+   .topo > ul > li > a :active{
+      color:green;
+      border-bottom: 2px solid green;
+      font-weight: 700;
+   }
+   h1{
+    text-align: center;
+    color: #000000;
+   }
+   .contai{
+   display: flex;
+   justify-content: space-around;
+   padding: 40px; 
+   
+ }
+ .conte{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+ }
+ .fundo{
+    background-color: aquamarine;
+ }
+ footer{
+      text-align: center;
+      padding: 20px;
+ }
     </style>
 </head>
 <body>
-    <div id="pai">
-        <div class="filho">Conteudo 1</div>
-        <div class="filho">Conteudo 2</div>
-        <div class="filho">Conteudo 3</div>
-        <div class="filho">Conteudo 4</div>
-        <div class="filho">Conteudo 5</div>
-    </div>
+    <header>
+         <img src="governo.png" id="log" alt="Texto alternativo" title="legenda"/> 
+        <nav class="topo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="https://www.seduc.ce.gov.br/">Seduc</a></li>
+                <li><a href="#rodape">Ancora</a></li>
+            </ul>
+        </nav>
+        </header>
+    <h1>#Diretores</h1>
+    <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+
+        <h1>#Humanas</h1>
+
+        <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+        <h1>#linguagem</h1>
+        <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+        <h1>#naturezas</h1>
+        <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+        <h1>#matematica</h1>
+        <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+        <h1>equipe</h1>
+        <div class="fundo">
+    <section class="contai">
+        <article class="conte">
+            <img src="eemti.jpg" class="foto">
+            <p>coornadro escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>diretor escolar</p>
+        </article>
+        <article class="conte">
+            <img src="eemti.jpg">
+            <p>secretario escolar</p>
+        </article>
+        </div>
+    </section>
+    <footer id="rodape">
+        <p>
+               &copy; 2017 - 2023 - GOVERNO DO ESTADO DO CEARÁ TODOS OS DIREITOS RESERVADOS
+            </p>
+
+    </footer>
 </body>
 </html>
