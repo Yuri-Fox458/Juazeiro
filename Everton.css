@@ -1,3 +1,9 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
 body{
     /*alteração da cor do fundo do site*/
     background: #ffffff; 
@@ -19,8 +25,20 @@ p{
     color: #00ff00; 
  }
  #logo{
-    /*altra o tamalho da logo*/
-    width:200px;
+    /* altra o tamalho da logo */
+    height: 200px;
+    width: 300px;
+ }
+ .container{
+   display: flex;
+   justify-content: space-around;
+   padding: 40px;
+ }
+ .conteudo{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
  }
  #banner-principal{
     width:100%;
@@ -29,4 +47,14 @@ p{
     width: 250px;
     height: 250px;
     border-radius: 40%;
+ }
+ header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+ }
+ .menu ul li{
+   display: inline;
  }
